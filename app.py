@@ -185,5 +185,5 @@ st.dataframe(
         'score_concentracion': '{:.1f}',
         'Audit_Risk_Score': '{:.1f}',
     }),
-    use_container_width=True,
+    width='stretch',
 )
