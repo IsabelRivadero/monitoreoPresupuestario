@@ -1,0 +1,13 @@
+# Excluir archivos de datos pesados
+*.csv
+*.xlsx
+*.parquet
+data/
+../data/
+
+# Excluir temporales y entornos virtuales
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+datalab/
+.DS_Store
